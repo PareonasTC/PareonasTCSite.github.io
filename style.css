@@ -1,0 +1,24 @@
+h1 {
+    font-size: 20vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    color: #ebdceb;
+}
+
+body {
+    background-color: black;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+
+@media screen and (max-width:900px){
+    h1 {
+        font-size: 5vh;
+        font-weight: 400;
+    }
+    
+}
